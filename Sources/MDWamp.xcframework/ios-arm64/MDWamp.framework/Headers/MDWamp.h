@@ -24,6 +24,15 @@
 #import "MDWampMessages.h"
 #import "MDWampClientConfig.h"
 
+
+#import <Foundation/Foundation.h>
+
+//! Project version number for MDWamp.
+FOUNDATION_EXPORT double MDWampVersionNumber;
+
+//! Project version string for MDWamp.
+FOUNDATION_EXPORT const unsigned char MDWampVersionString[];
+
 /**
  *  Wamp - Roles
  */
